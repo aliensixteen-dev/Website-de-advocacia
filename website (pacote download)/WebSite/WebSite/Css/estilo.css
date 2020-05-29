@@ -1,0 +1,320 @@
+body{
+margin: 0; padding: 0;
+font-family:"Book Antiqua";
+background-color: white;
+}
+
+header{
+height: 75px;
+position: fixed;
+top: 0;
+z-index: 120;
+background-color: #fff;
+width: 100%;
+align-items: center;
+box-shadow: 0 3px 6px rgba(0,0,0,.1);
+padding: 0;
+}
+
+nav#cabecalho{
+font-family:"Book Antiqua";
+text-align: right;
+}
+
+.listaUl{
+margin: 30px 10px 10px 10px;
+list-style: none;
+font-size: 14pt;
+}
+
+.linhaLi{
+display: inline; 
+line-height: 20px;
+margin-right: 10px;
+}
+
+.overflow{
+color: grey;
+}
+
+.mudaCor:hover { color: #0AC5D4;}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+/* Área do slide */
+*{margin: 0; padding: 0;}
+section#slide { 
+    display: block;
+   	overflow: hidden; 
+    height: 500px;
+    width: 1348px;
+    margin-top: 75px;
+}
+
+section#buttons-slide{
+	background: transparent;
+	display: none;
+	position: absolute;
+	margin: 5px;
+	z-index: 500;;
+}
+
+section#slide section#buttons-slide a{
+	background: #333;
+	width: 50px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.9;
+
+}
+
+section#slide section#buttons-slide a:hover{
+	background: #555;
+}
+
+section#slide ul{
+	list-style: none;
+	display: table;
+	position: relative;
+}
+
+section#slide ul li{
+	width: 1400px;
+	height: 500px;
+	display: inline-block;
+	position: relative;
+
+}
+
+section#slide ul li img{
+	width: 100%;
+	height: 100%;
+}
+/* Fim Área do slide */
+
+
+/* Conteúdo da page --parágrafos e afins-- */
+.page-content {
+display: flex;
+flex: 0 0 auto;
+padding: 50px 300px 0 240px; 
+font-family:"Book Antiqua";
+line-height: 35px; 
+color: #253A44; 
+font-size: 18px;
+text-align:justify;
+}
+
+.page-content-wrapper { 
+width: 950px; 
+max-width: 100%;
+}
+
+/* Fim conteúdo da page --parágrafos e afins-- */
+
+
+/* ContainerInformacao*/
+section#container{
+    width: 1007px;
+    flex: 0 0 auto;
+    flex-direction: row;
+    display: flex;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.containInfo{
+	display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 50px 20px 10px 20px;
+    text-align: center;
+}
+
+.info{    
+	display: inline-block;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    margin: 0 auto;
+}
+
+.info img{
+	height: 100px;
+	width: 100px;
+	position: inherit;
+}
+
+.containInfo h2{
+	margin-top: 10px;
+	font-size: 12pt;
+	text-transform: uppercase;
+	color:#555;
+}
+
+.containInfo p{
+	margin-top: 5pX;
+	line-height: 16pt;
+	font-size: 11pt;
+	color:#555;
+}
+
+.info:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	box-shadow: 0 0 5px #333;
+}
+
+
+/*Gradient*/
+section#gradientsWrapper{
+	padding: 40px 0;
+	position: relative;
+	width: 100%;
+    display: block;
+    height: 300px;
+	color: white;
+}
+
+.gradient{
+	background: linear-gradient(to right, rgba(0, 126, 174, .85), rgba(26, 193, 187, .85));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+	background-color: #0767FF;
+    z-index: 0;
+}
+
+.caixaTextoSlide{
+	z-index: 0;
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+	margin-left: 300px;
+    width: 950px;
+    max-width: 100%;
+}
+
+.caixinhaDescricao{
+	font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #6DF4FF;
+    border: 1px solid #6DF4FF;
+    padding: 8px 44px;
+    border-radius: 23px 6px;
+    margin-bottom: 10px;
+}
+
+.tituloSlide{
+	margin: 0 0 10px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.descricaoSlide{
+	font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0;
+}
+/*Fim Gradient*/
+
+/* Botão central do gradient*/
+.center-button{
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.button{
+	width: 300px;
+	margin: 60px auto 0;
+	padding: 0;
+}
+
+.btn{
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color:  #55555554;
+} 
+
+/* Fim botão central do gradient*/
+
+/* Footer*/
+.footerRodape{
+background: linear-gradient(to right, rgba(0, 126, 174, .85), rgba(26, 193, 187, .85));
+font-family: inherit;
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+align-items: normal;
+padding: 30px 60px;
+flex: 0 0 auto;
+bottom: 0;
+}
+
+.footerColuna{
+    padding: 0 5px;
+	display: block;
+	flex-direction: column;
+	color: #C8CDD4;
+	text-align: left;
+	font-size: 14px;
+}
+
+.a {
+	display: block;
+	color: #C8CDD4;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+	text-decoration: none;
+    margin: 0 0 20px;
+    flex-direction: row;
+}
+
+.a:hover{
+	color: #fff;
+}
+
+.p{
+	display: block;
+	text-align: left;
+	margin: 0 0 20px;
+    font-weight: 400;
+    flex-direction: row;
+}
+
+/*Fim Footer*/
+
+
+/* Media Queries*/
+
+@media (min-width: 1350px){
+	
+}
+
+/* Fim Media Queries*/

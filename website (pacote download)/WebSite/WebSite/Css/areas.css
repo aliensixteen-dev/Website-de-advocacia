@@ -1,0 +1,107 @@
+body{
+	font-family:"Book Antiqua";
+}
+section#Content-App{
+    display: block;
+    height: 1000px;
+    line-height: 1.54;
+	overflow: hidden;
+	margin-top: 80px;
+}
+
+div#Content-Formulario{
+	height: 100%;
+    position: relative;
+}
+
+div#area-form{
+	display: block;
+	box-sizing: border-box;
+    height: 92%;
+	width: 768px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+}
+
+#lista-area{
+	margin-top: 40px;
+	width: 703px;
+	height:100%;
+	padding: 24px;
+}
+
+#item-container{
+	height:180px;
+	width:703px;
+	box-sizing: border-box;
+	margin:0;
+	position:absolute;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+#main-container{
+	position: relative;
+	height:40px;
+}
+
+.card-title{
+	color: #0AC5D4;
+	padding-top: 5px;
+	align-items: center;
+	display: block;
+	border-bottom: 1px solid #888;
+    font-size: 140%;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div#principal-container{
+	padding-top: 8px;
+	-webkit-padding-start: 10px;
+    align-items: center;
+    display: flex;
+	height: 44px;
+	width: 693px;
+}
+
+div#item-descricao{
+	align-items: center;
+    display: flex;
+    flex: 1;
+    height: 44px;
+	text-shadow: 1px 1px 4px grey;
+}
+
+.titulo-item{
+	-webkit-margin-start: 16px;
+    color: #000;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.p-descricao{
+	flex: 1;
+	margin-top: 50px;
+    align-items: flex-start;
+    display: inline-flex;
+    height: 44px;
+    position: absolute;
+	
+}
+
+div#separador{
+	-webkit-border-start: 1px solid #888;
+	-webkit-margin-start: 77px;
+	height: 15px;
+	display: none !important;
+}
+
+
+

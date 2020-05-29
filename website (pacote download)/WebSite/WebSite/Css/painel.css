@@ -1,0 +1,49 @@
+body{
+	line-height: 1.5;
+	font-size: 87.5%;
+	background-color: #fff; 
+	font-family: "Book Antiqua";
+} 
+
+.body{
+	clear: both;
+	width: 70%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{}
+
+a:hover, a:active{}
+
+.navigatorheader{
+	height: 50px;
+	background-color: #666;
+	margin-top: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.navigatorheader ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.navigatorheader ul li{ 
+	float: left;
+	display: inline;
+}
+
+.navigatorheader a:link, .navigatorheader a:visited{
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px; 
+}
+
+.active{
+	background-color: #daa520;
+}

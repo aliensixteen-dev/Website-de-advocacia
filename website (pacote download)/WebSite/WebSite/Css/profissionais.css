@@ -1,0 +1,203 @@
+body{
+	font-family:"Book Antiqua";
+	background-color: #fff;
+	margin: 0 auto;
+	width: 100%;
+}
+	
+.bodyContent{
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+	width: auto;
+	height: 650px;
+	background-color: rgb(248, 249, 250);
+	padding: 100px 50px 50px 70px;
+}
+
+.Content{
+	box-sizing: border-box;
+    height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+
+
+.funcionariosCard{
+	padding: 10px ;
+    display: inline-table;
+    justify-content: center;
+    margin: 0 auto;
+	height: 290px;
+}
+
+
+Div#Card{
+    background: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+Div#profile-foto{
+	align-self: start;
+    display: inline-flex;
+    padding: 8px;
+    position: relative;
+    width: 120px;
+    height: 200px;
+}
+
+img#foto{
+	height:100%;
+	width: 100%;
+}
+
+Div#HeaderCard{
+	display: inline-block;
+	height: 30px;
+	width: 300px;
+    position: absolute;
+	padding-bottom: 6px;
+    padding-top: 10px;
+	padding-left: 130px;
+}
+
+span#name{
+	color:#616161;
+	font-size: 18pt; 
+	-webkit-margin-start: 10px;
+	padding-bottom:8px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+Div#Informacao{
+	display: inline-block;
+	position: absolute;
+	padding-left: 140px;
+    padding-top: 50px;
+	width: 300px;
+	margin-right: 10px;
+	text-align: start;
+	font-family:"Book Antiqua"; 
+	color: #253A44; 
+}
+span#email{
+	display: inline-flex;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+span#morada{
+	display: inline-flex;
+}
+
+span#conteudo{
+	text-align: justify;
+	display: inline-flex;
+	padding-top: 10px;
+}
+
+
+div#BarraButtons{
+	-webkit-padding-end: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    border-top: 1px solid #f5f5f5;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+  }
+  .modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+  }
+  .modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+  }
+  .closeModal {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+  }
+  .closeModal:after {
+	content: "\d7";
+  }
+  .closeModal:hover { 
+	background: rgba(255, 0, 0, 0.39); 
+}
+
+.paper-button{
+	border: 1px solid rgb(218, 220, 224);
+    border-radius: 4px;
+    color: #1e88e5;
+    font-weight: 600;
+    height: 32px;
+	background-color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: none;
+	cursor: pointer;
+	font-family: inherit;
+}
+a.paper-button{
+	margin-left: 10px;
+	font-size: 12px;
+}
+.paper-button:hover{
+	background-color:#1ac1bb85;
+}
+
+#contactar-button{
+	margin-left: 20px;
+	
+}
+
+#classificar-button{
+	margin-left: 20px;
+}
+
+
+@media screen and (min-width:1350px) { 
+	.Content{
+		padding-left: 150px;
+	}
+}
+
+
+
+

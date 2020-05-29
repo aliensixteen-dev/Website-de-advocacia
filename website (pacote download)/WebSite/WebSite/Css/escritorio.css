@@ -1,0 +1,25 @@
+.conteudoPagina{
+width: 80%; 
+max-width: 100%;
+margin: 0;
+padding: 0;
+}
+
+h1{
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+.containerText{
+padding-top: 180px;
+padding-bottom:40px;
+position: relative;
+left: 150px;
+font-family:"Book Antiqua";
+line-height: 35px; 
+color: #253A44; 
+font-size: 18px;
+text-align:justify;
+}
+
+
