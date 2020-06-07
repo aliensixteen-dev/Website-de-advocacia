@@ -1,136 +1,269 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-	<title> Site de Advocacia </title>
-	<meta name="robots" content="all"/>
+	<!-- Meta tags obrigatórias-->
 	<meta charset="utf-8">
-	<meta name="language" content="pt-PT"/>
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Bootstrap Css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  
+	<!-- Css e Fontawesome-->
 	<link rel="stylesheet" type="text/css" href="Css/estilo.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	
+	<title> Site de Advocacia </title>
 </head>
 <body>
 	<header>
-			<nav id="cabecalho">
-				<ul class="listaUl">
-					<li class="linhaLi"> <a href="index.html" class="overflow">Página Inicial</a></li>
-					<li class="linhaLi"> <a href="escritorio.html" class="mudaCor"> Escritório </a> </li>
-					<li class="linhaLi"> <a href="funcionarios.html" class="mudaCor"> Profissionais </a> </li>
-					<li class="linhaLi"> <a href="areas.html" class="mudaCor"> Áreas de Actuação </a></li>
-					<li class="linhaLi"> <a href="contacto.html" class="mudaCor"> Contacto </a></li>
-					
-				</ul>	
-			</nav>
+			<nav id="main-nav" class="navbar navbar-light">
+				<a class="navbar-brand" href="#"> Logótipo </a>
+				<ul class="nav nav-pills nav-lista">
+				  <li class="nav-item"> <a class="nav-link colorlink" href="#"> Home </a> </li>
+				  <li class="nav-item"> <a class="nav-link colorlink" href="#escritorio"> Escritório </a> </li>
+				  <li class="nav-item"> <a class="nav-link colorlink" href="#areas"> Áreas de Actuação </a> </li>
+				  <li class="nav-item"> <a class="nav-link colorlink" href="#funcionarios"> Nossos Profissionais </a> </li>
+				  <li class="nav-item"> <a class="nav-link colorlink" href="#contacto"> Contacto </a> </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle colorlink" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Login </a>
+					<div class="dropdown-menu">
+					  <a class="dropdown-item" href="#um"> Backoffice </a>
+					  <a class="dropdown-item" href="#dois"> Carreiras </a>
+					  <div role="separator" class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#tres"> About </a>
+					</div>
+				  </li>
+				</ul>
+			  </nav>
 	</header>
 	
-		<section id="slide">
-			<section id="buttons-slide">
-				<a href="#" class="prev">&laquo;</a>
-				<a href="#" class="next">&raquo;</a>
-			</section>
+	<!-- Slidezone-->
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img class="d-block w-100" src="multimedia/martelo.jpg" alt="Primeiro Slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Confie em nós para tratarmos de seus assuntos legais</h5>
+						<p>Asseguramos-lhe </p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100" src="multimedia/mesa.jpg" alt="Segundo Slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Confie em nós para tratarmos de seus assuntos legais</h5>
+						<p>Asseguramos-lhe </p>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100" src="multimedia/justice.jpg" alt="Terceiro Slide">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Confie em nós para tratarmos de seus assuntos legais</h5>
+						<p>Asseguramos-lhe </p>
+					</div>
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Próximo</span>
+				</a>
+			  </div>
 
-			<ul> 
-				<li>	
-					<img src="multimedia/mesa.jpg"> 
-				</li>
-				
-				<li>	
-					<img src="multimedia/martelo.jpg"> 
-				</li>
-				
-				<li>	
-					<img src="multimedia/contrato.jpg"> 
-				</li>
+	<!--Section Escritório-->
+	<section id="escritorio" class="page-content row sectioncolor" data-v-58eec394>
+		<div class="container" data-v-58eec394>
+			<div class="row align-items-center" data-v-58eec394>
+				<div class="col-lg-5 col-sm-12" data-v-58eec394>
+					<h3 class="box_header" data-v-58eec394> Sobre </h3>
+					<div class="text-office" data-v-58eec394>
+						<h4 data-v-58eec394> Qualidade e rigorosidade no trabalho </h4>
+						<p data-v-58eec394> Exercermos a advocacia com HONESTIDADE, TRANSPARÊNCIA E COMPETÊNCIA, oferecendo um atendimento totalmente personalizado, com eficiência e comprometimento. Para nós, o Advogado deve ser conselheiro irrestrito do seu cliente. </p>
 
-				<li>	
-					<img src="multimedia/justice.jpg"> 
-				</li>
-
-				<li>	
-					<img src="multimedia/contrato.jpg"> 
-				</li>
-			</ul>
-
-		</section>
-		
-	
-	<section class="page-content">
-		<section class="page-content-wrapper">
-			<p> Nos dias actuais, no mercado da advocacia, embora fatores pessoais como as indicações contem bastante na hora da contratação, na maior parte das vezes, o primeiro contato de um potencial cliente com um escritório é feito através do ambiente digital.</p>
-			<p>	Facilitando aos nosssos potenciais clientes a encontrarem nossos advogados e escritório mais facilmente <strong>Advocacia Em Moçâmedes</strong>, é a nova solução para a causa.
-				Geramos credibilidade e confiança, visto que pode conhecer os profissionais do cargo antes mesmo do contacto pessoal.</p>
-			<p>	Advocacia Em Moçâmedes, é um cartão de visitas que virá a servir para o princípio de novas parcerias com outros profissionais, gerar novos negócios e fortalecer a relação com os nosssos clientes. </p>
-			
-		</section>
-	</section>
-	
-	
-	<section id="container">
-		<div id="containInfo1" class="containInfo">
-			<div id="info1" class="info">
-				<img src="multimedia/consulting.png">
+						<h4 data-v-58eec394> Estrutura societária</h4>
+						<p data-v-58eec394> O escritório está composto pelos profissionais abaixo descritos</p>
+						<p data-v-58eec394> Fundador: Olgário Tavares </p>
+						<p data-v-58eec394> Co-Fundador: Juvenal </p>
+						<p data-v-58eec394> Membro: Anacleto </p>
+						<p class="mb-35" data-v-58eec394> Membro: Bernardo Gonçalves </p>
+					</div>
+				</div>
+				<div class="col-lg-6 offset-lg-1 col-sm-12" data-v-58eec394>
+					<div class="image_back" data-v-58eec394>
+						<img src="multimedia/equipa.jpg" alt="Equipa do escritório" class="img-fluid g-image g-image--lazy g-image--loaded" data-v-58eec394>
+					</div>
+					
+				</div>
 			</div>
-			<h2> Consultoria </h2>
-			<p> Ajudamos os nossos clientes através de consultoria especializada de acordo às suas necessidades. </p>
 		</div>
-		
-		<div id="containInfo2" class="containInfo">
-			<div id="info2" class="info">
-				<img src="multimedia/community.png">
-			</div>
-			<h2> Competência </h2>
-			<p> Trabalhamos em conjunto de modo a tornar os nossos serviços mais eficientes. </p>
-			<p> O poder vem de você, e os benefícios são para si. </p>
-		</div>
-		
-		<div id="containInfo3" class="containInfo">
-			<div id="info3" class="info">
-				<img src="multimedia/co-working.png">
-			</div>
-			<h2> Assegurabilidade </h2>
-			<p> Asseguramos-lhe profissionais competentes, altamente formados nas várias áreas de actuação do escritório. </p>
-		</div>
-
-		<section class="conteudoPagina">
-			
-			<section class="containerText">
-				<H1><strong> História e Formação </strong></H1>
-					<p> O nosso escritório foi fundado em 2014, pelo Advogado Civil, <strong>Dr. Marcelino Gamboa</strong> pertencente à Ordem de Advogados de Angola desde 2016. </p>
-					<p> Temos a sede localizada em Moçâmedes, Namibe como a única estrutura física da empresa.</p>
-					<p> </p>
-				
-				<H1><strong> Estrutura societária </strong></H1>
-				<p> O escritório está composto pelos profissionais abaixo descritos </p>
-				<p style="margin-left: 40px;"> Fundador: Marcelino Gamboa </p>
-				<p style="margin-left: 40px;"> Co-Fundador: Cláudia João </p>
-				<p style="margin-left: 40px;"> Membro: Fátima Fernandes </p>
-				<p style="margin-left: 40px;"> Membro: Bernardo Gonçalves </p>
-				
-				<H1><strong> Missão </strong></H1>
-					<p> O escritório tem como principal missão: </p>
-				
-				<section id="lista-conteudo" style="margin-left: 40px;">
-					<ul>
-						<li>Harmonizar as relações com nossos clientes com determinação e confiança, exteriorizando assim, a realização de um atendimento jurídico de excelência.</li>
-						
-						<li>Crescer sem perder a maneira artesanal de alcançar os objectivos, dentro de nossa cultura de ir à raiz do problema, colocando sempre os interesses do cliente em primeiro lugar. Para nós, o Advogado deve ser conselheiro irrestrito do seu cliente.</li>
-						
-						<li>Prestar o melhor serviço possível aos nossos clientes, utilizando a melhor técnica, sem esquecer o respeito às leis e à ética.</li>
-						
-						<li>Alcançar uma Aposentadoria justa para o cliente.</li>
-						
-						<li>Exercer a advocacia com HONESTIDADE, TRANSPARÊNCIA E COMPETÊNCIA, oferecendo um atendimento totalmente personalizado, com eficiência e comprometimento.</li>
-					</ul>
-				</section>
-				
-				<H1><strong> Visão </strong></H1>
-				<p>Nossa visão é sermos líderes no ramo de advocacia em Moçâmedes, pelo comprometimento, qualidade de nossos trabalhos e pelo valor que agregamos à outorga dos nossos clientes.</p>
-			</section>
-		</section>
-
-		
 	</section>
 
+	<!--Section Áreas De Actuação-->
+	<section id="areas" class="areas" data-v-7decfb98>
+		<div class="container" data-v-7decfb98>
+			<div class="row align-items-center" data-v-7decfb98>
+				<div class="col-xl-5 col-lg-4 col-md-12 header" data-v-7decfb98>
+					<div class="areas_head" data-v-7decfb98>
+						<div class="areas_head_text" data-v-7decfb98>
+							<h5 class="mb-60 mt-30" data-v-7decfb98> O Seu Companheiro Leal Para Assuntos Legais</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-7 col-lg-8 col-md-12" data-v-7decfb98>
+					<div class="row" data-v-7decfb98>
+						<div class="col-xl-6 col-md-6 col-sm-12 area" data-v-7decfb98>
+							<div class="my_service_box" data-v-7decfb98="">
+								<div class="my_service_text" data-v-7decfb98="">
+									<img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+									<div data-v-7decfb98="">
+										<h4 data-v-7decfb98="">Olgário Inácio</h4>
+										<p data-v-7decfb98="">
+										Websites e Apps de alta qualidade 100% responsivos e
+										mobile first, desenvolvidas com a UX em mente.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-xl-6 col-md-6 col-sm-12 area" data-v-7decfb98>
+							<div class="my_service_box mt-sm-25" data-v-7decfb98="">
+								<div class="my_service_text" data-v-7decfb98="">
+									<img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+									<div data-v-7decfb98="">
+										<h4 data-v-7decfb98="">Juvenal Costa</h4>
+										<p data-v-7decfb98="">
+										Websites e Apps de alta qualidade 100% responsivos e
+										mobile first, desenvolvidas com a UX em mente.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-xl-6 col-md-6 col-sm-12 area" data-v-7decfb98>
+							<div class="my_service_box mt-35" data-v-7decfb98="">
+								<div class="my_service_text" data-v-7decfb98="">
+									<img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+									<div data-v-7decfb98="">
+										<h4 data-v-7decfb98="">Anacleto</h4>
+										<p data-v-7decfb98="">
+										Websites e Apps de alta qualidade 100% responsivos e
+										mobile first, desenvolvidas com a UX em mente.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-xl-6 col-md-6 col-sm-12 area" data-v-7decfb98>
+							<div class="my_service_box mt-35" data-v-7decfb98="">
+								<div class="my_service_text" data-v-7decfb98="">
+									<img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/arthur-littm" />
+									<div data-v-7decfb98="">
+										<h4 data-v-7decfb98="">Sofia</h4>
+										<p data-v-7decfb98="">
+										Websites e Apps de alta qualidade 100% responsivos e
+										mobile first, desenvolvidas com a UX em mente.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Section Componentes-->
+	<section id="componentes" class="row">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-4 col-sm-6 col-md-3">
+					<div id="info1" class="info">
+						<img class="avatar-large" src="multimedia/consulting.png">
+					</div>
+					<h2> Consultoria </h2>
+					<p> Ajudamos os nossos clientes através de consultoria especializada de acordo às suas necessidades. </p>
+			  </div>
+	  
+			  <div class="col-lg-4 col-sm-6 col-md-3">
+					<div id="info2" class="info">
+						<img class="avatar-large" src="multimedia/community.png">
+					</div>
+					<h2> Competência </h2>
+					<p> Trabalhamos em conjunto de modo a tornar os nossos serviços mais eficientes. </p>
+					<p> O poder vem de você, e os benefícios são para si. </p>
+			  </div>
+	  
+			  <div class="col-lg-4 col-sm-6 col-md-3">
+					<div id="info3" class="info">
+						<img class="avatar-large" src="multimedia/co-working.png">
+					</div>
+					<h2> Assegurabilidade </h2>
+					<p> Asseguramos-lhe profissionais competentes, altamente formados nas várias áreas de actuação do escritório. </p>
+			  </div>
+			</div>
+		</div>
+
+		
+	</section>
+
+	<!--Section Contacto-->
+	<section id="contacto" class="contact" data-v-fe314ffa>
+		<div class="container" data-v-fe314ffa>
+			<div class="row align-items-center" data-v-fe314ffa>
+				<div class="col-lg-6 col-md-12 bg-black" data-v-fe314ffa>
+					<div class="mb-60 header" data-v-fe314ffa>
+						<h3 class="box_header" data-v-fe314ffa> Contacto </h3>
+					</div>	
+					<form data-v-fe314ffa>
+						<div class="form-row form-block mb-15" data-v-fe314ffa>
+							<div class="form-group col-sm-6">
+								<input id="name" type="text" name="nome" placeholder="Seu nome" required="required" value="" class="form-control contact-inpt" data-v-fe314ffa>
+							</div>
+
+							<div class="form-group col-sm-6" data-v-fe314ffa>
+								<input id="email" type="email" name="email" placeholder="Seu e-mail" required="required" value="" class="contact-inpt form-control" data-v-fe314ffa="">
+							</div>
+						</div>
+
+						<div class="form-row mb-15" data-v-fe314ffa>
+							<div class="form-group col-sm-4" data-v-fe314ffa>
+								<select id="contact_type" name="contact_type" class="form-control contact-inpt" data-v-fe314ffa="">
+									<option value="contact" data-v-fe314ffa="">Contacto</option>
+									<option value="candidature" data-v-fe314ffa="">Candidatura</option>
+								</select>
+							</div>
+							<div class="form-group col-sm-8" data-v-fe314ffa>
+								<input type="text" id="subject" name="subject" placeholder="Assunto" required="required" value="" class="form-control contact-inpt" data-v-fe314ffa="">
+							</div>
+						</div>
+
+						<div class="form-row form-block" data-v-fe314ffa>
+							<div class="form-group col-sm-12" data-v-fe314ffa="">
+								<textarea name="message" id="message" rows="6" placeholder="A mensagem" required="required" class="contact-inpt form-control" data-v-fe314ffa=""></textarea>
+							</div>
+						</div>
+
+						<div class="form-row" data-v-fe314ffa>
+							<div class="form-group col-sm-12 col-md-6 mt-10" data-v-fe314ffa>
+								<button type="submit" class="btn btn-outline-dark g-button" data-v-fe314ffa>Enviar mensagem</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-lg-6 col-md-12 mt-md-25" data-v-fe314ffa>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3850.330640258701!2d12.1477088!3d-15.1950615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40c7ff3e40d4444b!2sHotel+Chik+Chik+Namibe!5e0!3m2!1spt-PT!2sao!4v1537451370624" width="800" height="500" frameborder="0" style="border:0" allowfullscreen="allowfullscreen" data-v-fe314ffa></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Section Gradiente-->
 	<section id="gradientsWrapper">
 			<span class="gradient"></span>
 		
@@ -142,11 +275,12 @@
 		
 		<div class="center-button">
 					<div class="button">
-						<button class="btn"> Subscrever </button>
+						<button class="botao"> Subscrever </button>
 					</div>
 		</div>
 	</section>
 	
+	<!--Section Footer-->
 	<footer class="footerRodape">
 			<div id="localizacao" class=" footerColuna">
 				<p class="p">Localização </p>
@@ -156,36 +290,29 @@
 			</div>
 
 			<div id="contacto" class="footerColuna">
-				<p class="p">Contacte-nos </p>
-				<p class="p"> Tel.: +244 945087911</p>
-				<p class="p"> @:AdvocaciaEmMoçâmedes@gmail.com</p>
-			
-				<div class="social-media">
-					<a target="_blank" title="follow me on facebook" href="http://www.facebook.com/PLACEHOLDER">
-						<img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0>
-					</a>
-					
-					<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/PLACEHOLDER">
-						<img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0>
-					</a>
-					
-					<a target="_blank" title="follow me on Twitter" href="http://www.twitter.com/PLACEHOLDER">
-						<img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0>
-					</a>
-				</div>
+				<ul class="list-inline">
+					<li class="list-inline-item" ><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+				  </ul>
 			</div>
 
 			<div id="desenvolvedora" class="footerColuna">
 				<p class="p">Desenvolvido por: </p>
 				<p class="p">Startup AlienCode</p>
-				<a class="a" href="web.facebook.com/NgolaIt">Hospedagem web por NgolaIt </a>
 			</div>
 
 	</footer>
 
-
+	<!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="js/arquivoExternoSite.js"></script>
+  
 </body>
 </html>
 
